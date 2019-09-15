@@ -1,0 +1,62 @@
+/* Frame */
+.frame ul {
+  overflow: hidden;
+  list-style: none;
+  margin:0px;
+  padding: 0;
+  height: 100%;
+}
+.frame ul li{
+  float: left;
+  /* display: inline-block; */
+  cursor: pointer;
+}
+
+.frame ul li img{
+  width: 227px;
+  height: 100%;
+  margin: 10px;
+  padding: 0x;
+}
+
+.frame ul li.active {
+  background: #a03232;
+}
+
+
+/* Scrollbar */
+
+/* .scrollbar,
+.scrollbar2 {
+  margin: 0 0 1em 0;
+  height: 2px;
+  background: #ccc;
+  line-height: 0;
+} */
+
+/* Pages */
+/* 
+.pages {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+}
+.pages li {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 4px;
+  text-indent: -999px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
+}
+.pages li:hover {
+  background: #aaa;
+}
+.pages li.active {
+  background: #666;
+} */

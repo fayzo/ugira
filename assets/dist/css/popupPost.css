@@ -1,0 +1,102 @@
+/*****************************************************************/
+
+.tweet-show-popup-wrap input[type="checkbox"] {
+    display: none;
+}
+
+.tweet-show-popup-wrap input[type="checkbox"]:checked~.wrap4 {
+    display: block;
+}
+
+.tweet-show-popup-wrap input[type="checkbox"]:checked body {
+    overflow: hidden;
+}
+
+.wrap4 {
+    background-color: rgba(0, 0, 0, 0.34);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+    overflow-y: scroll;
+    display: block;
+}
+
+.tweet-show-popup-box-cut {
+    color: #fff;
+    position: absolute;
+    left: 77%;
+    top: 3%;
+    font-size: 23px;
+}
+
+.tweet-show-popup-box {
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    /* border: 1px solid #e7e7e7; */
+    margin: 40px auto;
+    padding: 0px;
+    font-family: Helvetica;
+}
+.more {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.post-popup-body-wrap {
+    width: 550px;
+    height: auto;
+    margin: 0px auto;
+    top: 25%;
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #9E9E9E;
+    overflow: hidden;
+}
+
+.card-header .closeDelete button {
+    border: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.card-header .closeDelete {
+    float: right;
+    position: relative;
+    right: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.card-header .closeDelete i {
+    color: #afb1b3;
+}
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10001;
+    background: rgba(0, 0, 0, 0.76);
+}
+.popwrap-inner {
+    margin: 0px auto;
+    width: 50%;
+    height: auto;
+    position: fixed;
+    bottom: 38%;
+    right: 25%;
+    background: white;
+    border-radius: 10px;
+    /* border: 1px solid #e7e7e7; */
+}

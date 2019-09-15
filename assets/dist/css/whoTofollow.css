@@ -1,0 +1,16 @@
+
+.whoTofollow-list-img {
+    position: relative;
+}
+.whoTofollow-list-img p{
+    position: absolute;
+    top:45px;
+    /* left: 22%; */
+    margin-left: 18px;
+}
+.whoTofollow-list-img > img{
+    border: 2px solid #d2d6de;
+    border-radius: 50%;
+    padding: 3px;
+    width: 60px;
+}

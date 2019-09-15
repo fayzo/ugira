@@ -1,0 +1,356 @@
+/* .card-primary:not(.card-outline) .card-header {
+    background-color: #007bff;
+    border-bottom: 5px #f2f3f5 solid;
+} */
+/* crop */
+input#crop {
+    padding: 5px 25px 5px 25px;
+    background: lightseagreen;
+    border: #485c61 1px solid;
+    color: #FFF;
+    visibility: hidden;
+}
+
+#cropped_img {
+    margin-top: 40px;
+}
+
+.card-primary:not(.card-outline) .card-header,
+.card-primary:not(.card-outline) .card-header a {
+    color: #ffffff;
+}
+
+/* .card-primary.card-outline {
+    border-top: 3px solid #007bff;
+} */
+
+.profile-user-img {
+    margin: 0 auto;
+    width: 100px;
+    padding: 3px;
+    border: 3px solid #adb5bd;
+}
+
+.profile-username {
+    font-size: 21px;
+    margin-top: 5px;
+}
+.list-group-unbordered>.list-group-item {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.list-group-unbordered>.list-group-item>a {
+    color: #3c8dbc;
+}
+.list-group-unbordered>.list-group-item>a:hover {
+    color: #024682;
+}
+.post {
+    border-bottom: 1px solid #adb5bd;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+.post:last-of-type {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.post .user-block {
+    margin-bottom: 15px;
+}
+.user-block:before,
+.user-block:after {
+    content: " ";
+    display: table;
+}
+
+.user-block:after {
+    clear: both;
+}
+.user-blockImgBorder{
+     float: left;
+     margin: 0px 5px 0px 0px;
+     border-radius: 50%;
+     border: 2px solid #e6dada;
+}
+.user-blockImg {
+    margin:2px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.user-blockImg img {
+    /* position: relative;
+    top: -10px;
+    left: -10px; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/* .img-bordered-sm {
+    border: 2px solid #d2d6de;
+    padding: 2px;
+} */
+
+/* .user-block img {
+    width: 40px;
+    height: 40px;
+    float: left;
+} */
+
+.user-block .username,
+.user-block .description,
+.user-block .comment {
+    display: block;
+    margin-left: 50px;
+}
+
+.user-block .username {
+    /* font-size: 16px; */
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.user-block .description {
+    color: #999;
+    font-size: 13px;
+}
+
+.user-block.user-block-sm .username,
+.user-block.user-block-sm .description,
+.user-block.user-block-sm .comment {
+    margin-left: 40px;
+}
+
+.user-block.user-block-sm .username {
+    font-size: 14px;
+}
+
+.img-sm,
+.img-md,
+.img-lg,
+.box-comments .box-comment img,
+.user-block.user-block-sm img {
+    float: left;
+}
+
+.img-sm,
+.box-comments .box-comment img,
+.user-block.user-block-sm img {
+    width: 30px !important;
+    height: 30px !important;
+}
+.img-sm+.img-push {
+    margin-left: 40px;
+}
+
+.img-md {
+    width: 60px;
+    height: 60px;
+}
+
+.img-md+.img-push {
+    margin-left: 70px;
+}
+
+.img-lg {
+    width: 100px;
+    height: 100px;
+}
+
+.img-lg+.img-push {
+    margin-left: 110px;
+}
+
+.img-bordered {
+    border: 3px solid #d2d6de;
+    padding: 3px;
+}
+
+/* .img-bordered-sm {
+    border: 2px solid #d2d6de;
+    padding: 2px;
+} */
+.card-profile{
+        position: relative;
+}
+.btn-tool {
+    padding: .25rem .5rem;
+    font-size: 0.875rem;
+    background: transparent;
+    color: #adb5bd;
+}
+
+.btn-group.show .btn-tool,
+.btn-tool:hover {
+    color: #495057;
+}
+
+.show .btn-tool,
+.btn-tool:focus {
+    box-shadow: none !important;
+}
+.card-comments {
+    background: #f7f7f7;
+}
+
+.card-comments .card-comment {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.card-comments .card-comment::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.card-comments .card-comment:last-of-type {
+    border-bottom: 0;
+}
+
+.card-comments .card-comment:first-of-type {
+    padding-top: 0;
+}
+
+.card-comments .card-comment img {
+    float: left;
+}
+
+.card-comments .comment-text {
+    margin-left: 40px;
+    color: #555;
+}
+
+.card-comments .username {
+    color: #444;
+    display: block;
+    font-weight: 600;
+}
+
+.card-comments .text-muted {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.attachment-block {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 5px;
+    margin-bottom: 10px;
+    background: #f7f7f7;
+}
+
+.attachment-block .attachment-img {
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    float: left;
+}
+
+.attachment-block .attachment-pushed {
+    margin-left: 110px;
+}
+
+.attachment-block .attachment-heading {
+    margin: 0;
+}
+
+.attachment-block .attachment-text {
+    color: #555;
+}
+/*
+ * Component: Users List
+ * ---------------------
+ */
+ 
+.users-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.users-list>li {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.users-list>li img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.users-list>li>a:hover,
+.users-list>li>a:hover .users-list-name {
+    color: #999;
+}
+
+.users-list-name,
+.users-list-date {
+    display: block;
+}
+
+.users-list-name {
+    font-size: 0.875rem;
+    color: #444;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.users-list-date {
+    color: #999;
+    font-size: 12px;
+}
+
+/* IMAGE JOBS HOVER */
+.jobHover:hover {
+    background: #999;
+}
+.jobHover:hover span {
+    background: #999;
+    color: #191717;
+}
+.user-jobImgBorder {
+    float: left;
+    margin:10px 5px 0px 10px;
+    border-radius: 50%;
+    border: 2px solid #e6dada;
+}
+.user-jobImg {
+    margin: 2px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+}
+
+.user-jobImg img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-jobImgall {
+    margin: 0px 5px 0px 10px;
+    float: left;
+    border-radius: 10%;
+    border: 2px solid #e6dada;
+    padding: 2px;
+}
+
+.user-jobImgall img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10%;
+}

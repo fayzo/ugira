@@ -1,0 +1,130 @@
+.hold-transition .content-wrapper,
+.hold-transition .right-side,
+.hold-transition .main-footer,
+.hold-transition .main-sidebar,
+.hold-transition .left-side,
+.hold-transition .main-header .navbar,
+.hold-transition .main-header .logo,
+.hold-transition .menu-open .fa-angle-left {
+    /* Fix for IE */
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+/*
+ * Page: Lock Screen
+ * -----------------
+ */
+/* ADD THIS CLASS TO THE <BODY> TAG */
+.lockscreen {
+    background: #d2d6de;
+}
+
+.lockscreen-logo {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.lockscreen-logo a {
+    color: #444;
+}
+
+.lockscreen-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+/* User name [optional] */
+.lockscreen .lockscreen-name {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Will contain the image and the sign in form */
+.lockscreen-item {
+    border-radius: 4px;
+    padding: 0;
+    background: #d2d6de;
+    position: relative;
+    margin: 10px auto 30px auto;
+    width: 290px;
+}
+
+/* User image */
+#white .lockscreen-image>img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+#white .lockscreen-image {
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: -25px;
+    background: #fff;
+    padding: 5px;
+    z-index: 10;
+}
+
+#green .lockscreen-image>img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+#green .lockscreen-image {
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: -25px;
+    background: rgb(27, 168, 22);
+    padding: 5px;
+    z-index: 10;
+}
+
+#red .lockscreen-image>img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+#red .lockscreen-image {
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: -25px;
+    background: rgb(240, 94, 94);
+    padding: 5px;
+    z-index: 10;
+}
+
+/* Contains the password input and the login button */
+.lockscreen-credentials {
+    margin-left: 60px;
+}
+.lockscreen-item > p {
+    margin-left: 80px;
+}
+
+.lockscreen-credentials .form-control {
+    border: 0;
+}
+
+.lockscreen-credentials .btn {
+    border: 0;
+}
+
+.lockscreen-footer {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+a {
+    color:black;
+    text-decoration: none
+}
+a:hover {
+    color:rgb(68, 67, 161);
+}

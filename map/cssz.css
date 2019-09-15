@@ -1,0 +1,198 @@
+.map-block {
+    position: relative;
+    height: 95vh;
+    max-height: 700px;
+    min-height: 600px;
+    background-color: #fbfbfb;
+}
+.map-goole {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .8s,visibility .8s;
+    -o-transition: opacity .8s,visibility .8s;
+    transition: opacity .8s,visibility .8s;
+}
+.map-goole.active {
+    opacity: 1;
+    visibility: visible;
+}
+.map-goole .bgimage{
+    background-size: contain;
+}
+.view-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+.vie-h3 {
+    font-size: 18px;
+    color: #18233a;
+    font-family: 'proxima_nova_rgbold';
+    text-align: center;
+    max-width: 190px;
+    z-index: 1;
+    position: relative;
+}
+.btn-wid {
+    margin-top: 25px;
+}
+.btn-wid .btn {
+    width: 190px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.btn-wid .btn:first-child {
+    margin-top: 0;
+}
+.map_btn {
+    position: relative;
+    z-index: 1;
+}
+.map_btn.active {
+    background-color: #18233a;
+    border-color: #18233a;
+    color: #fff;
+}
+
+.map-title {
+    position: absolute;
+}
+.map-musanze {
+    top: 22%;
+    left: 50.2%;
+}
+.map-rubavu {
+    top: 35.2%;
+    left: 43.1%;
+}
+.map-karongi {
+    top: 51.2%;
+    left: 44%;
+}
+.map-nyanza {
+    top: 65%;
+    left: 52%;
+}
+.map-huye {
+    top: 80%;
+    left: 51%;
+}
+.map-kigali {
+    top: 45%;
+    left: 57.7%;
+}
+.map-ngoma {
+    top: 53%;
+    left: 66.7%;
+}
+.map-rusizi {
+    bottom: 19%;
+    left: 35.8%;
+}
+.map-nyagatare {
+    top: 11.5%;
+    left: 63.5%;
+}
+.map-spn {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'proxima_nova_rgbold';
+    margin-bottom: 5px;
+}
+.map-dot {
+    display: block;
+    text-align: center;
+    line-height: 1;
+    color: #18233a;
+}
+.map-pos {
+    position: relative;
+}
+.map-pos .map-hover {
+    position: absolute;
+    padding: 25px;
+    background-color: #fff;
+    top: 65px;
+    left: 0;
+    text-align: center;
+    width: 270px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .5s,opacity .5s;
+    z-index: 1;
+}
+.map-kigali .map-dot .fa:before {
+    content: "\f005";
+    font-size: 19px;
+}
+.map-tith3 {
+    font-size: 38px;
+    color: #18233a;
+}
+.map-des {
+    font-size: 18px;
+    margin-top: 25px;
+    color: #18233a;
+}
+.map-pos:hover .map-hover {
+    visibility: visible;
+    opacity: 1;
+}
+.map-hover:before {
+    content: "";
+    position: absolute;
+    left: 7%;
+    top: -21px;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 24px solid #fff;
+    transform: rotate(180deg);
+}
+.map-karongi .map-hover:before,.map-rubavu .map-hover:before,.map-nyanza .map-hover:before {
+    left: 5.5%;
+}
+.map-huye .map-pos .map-hover {
+    left: -14px;
+}
+.map-kigali .map-pos .map-hover {
+    left: -13px;
+}
+.map-nyagatare .map-pos .map-hover {
+    left: 6px;
+}
+.map-ngoma .map-pos .map-hover {
+    left: -6px;
+}
+.map-rusizi .map-pos .map-hover {
+    left: -12px;
+}
+.nat-volcanoes {
+    top: 23%;
+    left: 50%;
+}
+.nat-gishwati.mukura {
+    top: 39.4%;
+    left: 48.8%;
+}
+.nat-nyungwe {
+    top: 75.5%;
+    left: 46.5%;
+}
+.nat-akagera {
+    top: 36.5%;
+    right: 30%;
+}
+.natonmap {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'proxima_nova_rgbold';
+}

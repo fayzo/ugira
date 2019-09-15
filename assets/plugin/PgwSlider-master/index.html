@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="pgwslider.css">
+    <link rel="stylesheet" href="pgwslideshow.min.css">
+    <link rel="stylesheet" href="../../dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <ul class="pgwSlider">
+                <li><img src="../../image/background_image/build.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+                <li><img src="../../image/background_image/build.jpg" alt="Montréal, QC, Canada" data-large-src="../../image/background_image/build.jpg"></li>
+                <li>
+                    <img src="../../image/background_image/build.jpg">
+                    <span>Shanghai, China</span>
+                </li>
+                <li>
+                    <a href="../../image/background_image/build.jpg" target="_blank">
+                        <img src="../../image/background_image/build.jpg">
+                        <span>New York, NY, USA</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="col-md-6">
+    
+            <ul class="pgwSlideshow">
+                <li><img src="../../image/background_image/build.jpg" alt="San Francisco, USA" data-description="Golden Gate Bridge"></li>
+                <li><img src="../../image/background_image/build.jpg" alt="Rio de Janeiro, Brazil"></li>
+                <li><img src="../../image/background_image/build.jpg" alt="" data-large-src="../../image/background_image/build.jpg"></li>
+                <li><img src="../../image/background_image/build.jpg" alt=""></li>
+                <li><img src="../../image/background_image/build.jpg" alt=""></li>
+                <li><img src="../../image/background_image/build.jpg" alt=""></li>
+                <li><img src="../../image/background_image/build.jpg" alt=""></li>
+                <li><img src="../../image/background_image/build.jpg" alt=""></li>
+                <li><img src="../../image/background_image/build.jpg" alt=""></li>
+                <li><img src="../../image/background_image/build.jpg" alt=""></li>
+                <li><img src="../../image/background_image/build.jpg" alt=""></li>
+                <li>
+                    <a href="../../image/background_image/build.jpg" target="_blank">
+                        <img src="../../image/background_image/build.jpg" alt="Monaco">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    
+    </div>
+</div>
+
+   <script src="../../dist/js/jquery.min.js"></script>
+   <script src="pgwslider.min.js"></script>
+   <script src="pgwslideshow.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var pgwSlider = $('.pgwSlider').pgwSlider();
+            pgwSlider.startSlide();
+            // pgwSlider.stopSlide();
+            pgwSlider.reload({
+                mainClassName: 'pgwSlider',
+                listPosition: 'left',
+                transitionEffect: 'sliding',
+                autoSlide: true,
+                displayList: true,
+                adaptiveHeight: false,
+                displayControls:true,
+                touchControls:true,
+                maxHeight: 300,
+                intervalDuration: 4000
+            });
+
+            var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow();
+            pgwSlideshow.startSlide();
+            pgwSlideshow.reload({
+                mainClassName: 'pgwSlideshow',
+                autoSlide: true,
+                displayList: true,
+                displayControls: true,
+                transitionEffect: 'sliding',
+                maxHeight: 300,
+                // adaptiveDuration: 4000,
+                intervalDuration: 3000	
+            });
+
+        });
+    </script>
+</body>
+</html>

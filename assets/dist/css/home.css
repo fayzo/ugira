@@ -1,0 +1,584 @@
+/* profile home */
+.info-box {
+    width: 100%;
+    min-height: 170px;
+    float: left;
+    background: #fff;
+    border-radius: 5px;
+    overflow: auto;
+    /* border: 1px solid #e3e3e3; */
+}
+#black .info-box {
+    background: #272323;
+}
+
+.info-inner {
+    overflow: hidden;
+}
+
+.info-in-head {
+    width: 100%;
+    background-color: #ececec;
+    background-size: cover;
+    /* border-bottom: 1px solid #e3e3e3; */
+    overflow: hidden;
+    height: 100px;
+}
+
+.info-in-head img {
+    width: 100%;
+}
+
+.info-in-body {
+    position: relative;
+    height: 70px;
+    top: -40px;
+}
+
+.in-b-img {
+    width: 70px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    height: 70px;
+    top: 15px;
+    left: 10px;
+    margin-right: 15px;
+}
+
+.in-b-img img {
+    border: 2px solid #d2d6de;
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.info-body-name {
+    width: 75%;
+    position: relative;
+    top: 40px;
+    left: 8px;
+}
+
+.in-b-name div a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+#black .in-b-name div a {
+    color: #c3bebe;
+}
+
+.in-b-name div a:hover {
+    text-decoration: underline;
+}
+
+.in-b-name span small a {
+    text-decoration: none;
+    color: #7D7D7D;
+    font-size: 12px;
+}
+
+.info-in-footer {
+    width: 100%;
+    position: relative;
+    top: -15px;
+}
+
+/*NUMBER WRAPPER*/
+
+.number-wrapper {
+    text-align: center;
+    width: 95%;
+    overflow: auto;
+    float: right;
+}
+
+.num-box {
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.num-head {
+    font-family: Helvetica;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 10px;
+    color: #9b9b9b;
+}
+
+.num-body {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #007bff;
+}
+
+/* end profile img */
+
+/* home message post */
+.message-color {
+    background-color: #4c52440e;
+    padding-bottom: 0rem;
+}
+
+.card-body textarea {
+    overflow: auto;
+    /* resize: none; */
+    width: 98%;
+    height: 60px;
+    border: 1px solid #b3dab9;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.message-footer {
+    overflow: hidden;
+}
+
+.t-fo-left {
+    float: left;
+}
+
+.t-fo-left ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.t-fo-left label {
+    font-size: 25px;
+    /* color: #83b476; */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.t-fo-left input[type="file"] {
+    display: none;
+}
+
+.t-fo-left a:hover {
+    color: #64d547;
+}
+
+.t-fo-right {
+    float: right;
+    color: #727171;
+}
+
+.t-fo-right input[type="submit"] {
+    padding: 2px 5px;
+    /* font-weight: bold; */
+    /* color: #fff;
+    background: #83b476; */
+    /* border: 1px solid #aaa; */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* end message home post */
+
+/* hash-box */
+/*****************************************************************/
+
+.hash-box {
+    z-index: 3;
+    position: absolute;
+    margin-left: 20px;
+    background-color: #4c52440e;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: block;
+}
+
+.hash-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    background: #4e4d4dd1;
+    border-radius: 5px;
+}
+
+.hash-box ul li {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hash-box ul li:hover {
+    background: rgb(70, 183, 56);
+}
+
+.hash-box ul li:hover>a {
+    color: white;
+}
+
+.hash-box ul li a {
+    display: block;
+    text-decoration: none;
+    color: #716868;
+
+}
+
+/* END hash-box */
+
+/* **** like button AND SHARES** */
+
+.post ul {
+    padding: 0px;
+}
+
+.post ul button i {
+    font-size: 17px;
+    color: #007bff;
+    transition: all 200ms ease-in;
+}
+
+.post ul button {
+    outline: none;
+    color: #007bff;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+.input-group{
+    width: 98% !important;
+}
+ul li button i {
+    font-size: 17px;
+    color: #007bff;
+    transition: all 200ms ease-in;
+}
+
+ul li button {
+    outline: none;
+    color: #007bff;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.like-btn:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #cf3131;
+}
+
+.like-btn:hover>.fa-thumbs-o-up {
+    outline: none;
+    color: #cf3131;
+}
+
+button.retweeted>.fa-retweet {
+    color: #2ae740;
+}
+
+.share-btn:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #2ae740;
+}
+
+.share-btn:hover>.fa-share {
+    color: #2ae740;
+}
+
+.comments-btn:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #f3a411;
+}
+
+.comments-btn:hover>.fa-comments-o {
+    color: #f3a411;
+}
+
+/********************************************************************/
+/************************TWEET WRAP********************************************/
+
+.wrap5 {
+    background-color: rgba(0, 0, 0, 0.34);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+    overflow-y: scroll;
+    display: block;
+}
+
+
+.retweet-popup-body-wrap {
+    width: 550px;
+    height: auto;
+    margin: 0px auto;
+    top: 25%;
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #9E9E9E;
+    overflow: hidden;
+
+}
+
+.retweet-popup-heading h3 {
+    font-weight: normal;
+    font-size: 16px;
+    color: #7d929c;
+}
+
+.retweet-popup-heading {
+    text-align: center;
+    padding: 7px;
+    border-bottom: 1px solid #dde2e6;
+}
+
+.retweet-popup-heading button {
+    border: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.retweet-popup-heading span {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: 7px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.retweet-popup-heading span i {
+    color: #afb1b3;
+}
+
+.retweet-popup-input {
+    background: rgba(127, 196, 0, 0.18);
+    padding: 10px;
+}
+
+.retweet-popup-input-inner {
+    width: 99%;
+}
+
+.retweet-popup-input-inner input[type="text"] {
+    width: 96%;
+    padding: 8px 10px;
+    border-radius: 0px;
+    border: 1px solid #dedede;
+}
+
+.retweet-popup-comment-wrap {
+    width: 95%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.retweet-popup-comment-head {
+    overflow: hidden;
+    float: left;
+}
+
+.retweet-popup-comment-head img {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.retweet-popup-comment-headline {
+    float: left
+}
+
+.retweet-popup-comment-headline a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.retweet-popup-comment-headline span {
+    color: #aeaeae;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.retweet-popup-comment-body {
+    float: left;
+    overflow: hidden;
+    color: #424242;
+    font-size: 14px;
+}
+
+.retweet-popup-comment-right-wrap {
+    width: 90%;
+    overflow: hidden;
+    float: left;
+    margin: 0px 0px 0px 5px;
+}
+
+.retweet-popup-footer-right {
+    float: right;
+}
+
+.retweet-popup-footer-right button[type="submit"] {
+    background: #3a8efb;
+    padding: 8px 10px;
+    border: 1px solid #E7E7E7;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.retweet-popup-footer-right button[type="submit"]:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#499bea+0,207ce5+100;Blue+3d+%237 */
+    background: #499bea;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #499bea 0%, #207ce5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #499bea 0%, #207ce5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #499bea 0%, #207ce5 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#207ce5', GradientType=0);
+    /* IE6-9 */
+}
+
+.retweet-popup-footer-right button[type="submit"]:active {
+    background: #3a8efb;
+    box-shadow: inset 0px 0px 3px black;
+}
+
+.retweet-popup-footer-right button i {
+    margin: 0px 3px 0px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 1px;
+}
+
+.post .t-show-banner-inner {
+    margin-top: 0;
+    width: 100%;
+    font-size: 13px;
+    color: #309ed4;
+    padding: 2px 0px;
+}
+
+.post .t-show-banner-inner i {
+    color: #fcfcfc;
+    background: #17dd6d;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.deleteButt {
+    padding: 0px;
+    width: 5px;
+}
+
+.deleteButt li {
+    padding: 0px;
+}
+
+.deleteButt li:hover ul {
+    display: block;
+}
+
+.deleteButt li ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    z-index: 6;
+}
+
+.deleteButt li ul li {
+    background: white;
+    border-radius: 4px;
+    position: relative;
+    top: -55px;
+    left: -50px;
+}
+
+.deleteButt li ul li:hover {
+    background: #245f97;
+}
+
+.deleteButt li ul li label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+}
+
+.deleteButt li ul li:hover>label {
+    color: white;
+}
+
+.showcartButt {
+    padding: 0px;
+    width: 5px;
+}
+
+.showcartButt li {
+    padding: 0px;
+}
+
+.showcartButt li:hover ul {
+    display: block;
+}
+
+.showcartButt li ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    z-index: 6;
+}
+
+.showcartButt li ul li {
+    background: white;
+    border-radius: 4px;
+    position: relative;
+    top: -5px;
+    left: 8px;
+}
+
+.showcartButt li ul li:hover {
+    background: #245f97;
+}
+
+.showcartButt li ul li label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+}
+
+.showcartButt li ul li:hover>label {
+    color: white;
+}

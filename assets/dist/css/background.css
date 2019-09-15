@@ -1,0 +1,31 @@
+.build {
+    background: url(http://localhost:80/Blog_nyarwanda_CMS/assets/image/background_image/build.jpg) fixed center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+}
+
+.build1 {
+    background: url(http://localhost:80/Blog_nyarwanda_CMS/assets/image/background_image/build1.jpg) fixed center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+}
+
+.build2 {
+    background: url(http://localhost:80/Blog_nyarwanda_CMS/assets/image/background_image/build2.jpg) fixed center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+}
+
+.chair {
+    background: url(http://localhost:80/Blog_nyarwanda_CMS/assets/image/background_image/chair.jpg) fixed center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+}
+
+.white-bg {
+    background: #eff2f6;
+}

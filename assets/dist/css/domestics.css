@@ -1,0 +1,64 @@
+/* profile upload */
+.employers .img-relative {
+  z-index: 2;
+  text-align:center;
+}
+
+.employers .img-relative .profile-upload {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+.employers .img-relative .profile-upload > img {
+  width: 180px;
+  height: 180px;
+  border: 3px solid #ffffff;
+}
+
+.employers .img-upload-iconLinks {
+  z-index: 2;
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  /* top: 45%;
+  left: 32%; */
+}
+
+.employers .img-upload-iconLinks i {
+  cursor: pointer;
+  font-size:60px;
+  color: rgb(224, 63, 63);
+}
+
+.employers .img-upload-iconLinks i:hover {
+  color: rgb(155, 132, 132);
+}
+
+.employers .profile-upload .img-placeholder {
+  width: 182px;
+  color: white;
+  height: 100%;
+  background: black;
+  opacity: .7;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  border: 2px solid black;
+}
+
+.employers .profile-upload .img-placeholder h4 {
+  /* margin-top: 30%; */
+  margin-top: 50%;
+  color: white;
+}
+
+.employers .profile-upload:hover .img-placeholder {
+  display: inline-block;
+  cursor: pointer;
+}
